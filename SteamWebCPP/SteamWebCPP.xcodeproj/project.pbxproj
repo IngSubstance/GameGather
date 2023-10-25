@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52A1E8102AE8296400F4F353 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52A1E80F2AE8296400F4F353 /* main.cpp */; };
+		5287FE9C2AE9096300BC463D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5287FE9B2AE9096300BC463D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		52A1E80A2AE8296400F4F353 /* CopyFiles */ = {
+		5287FE962AE9096300BC463D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		52A1E80C2AE8296400F4F353 /* SteamWebCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SteamWebCpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A1E80F2AE8296400F4F353 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5287FE982AE9096300BC463D /* SteamWebCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SteamWebCPP; sourceTree = BUILT_PRODUCTS_DIR; };
+		5287FE9B2AE9096300BC463D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52A1E8092AE8296400F4F353 /* Frameworks */ = {
+		5287FE952AE9096300BC463D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52A1E8032AE8296400F4F353 = {
+		5287FE8F2AE9096300BC463D = {
 			isa = PBXGroup;
 			children = (
-				52A1E80E2AE8296400F4F353 /* SteamWebCpp */,
-				52A1E80D2AE8296400F4F353 /* Products */,
+				5287FE9A2AE9096300BC463D /* SteamWebCPP */,
+				5287FE992AE9096300BC463D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		52A1E80D2AE8296400F4F353 /* Products */ = {
+		5287FE992AE9096300BC463D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52A1E80C2AE8296400F4F353 /* SteamWebCpp */,
+				5287FE982AE9096300BC463D /* SteamWebCPP */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52A1E80E2AE8296400F4F353 /* SteamWebCpp */ = {
+		5287FE9A2AE9096300BC463D /* SteamWebCPP */ = {
 			isa = PBXGroup;
 			children = (
-				52A1E80F2AE8296400F4F353 /* main.cpp */,
+				5287FE9B2AE9096300BC463D /* main.cpp */,
 			);
-			path = SteamWebCpp;
+			path = SteamWebCPP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52A1E80B2AE8296400F4F353 /* SteamWebCpp */ = {
+		5287FE972AE9096300BC463D /* SteamWebCPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A1E8132AE8296400F4F353 /* Build configuration list for PBXNativeTarget "SteamWebCpp" */;
+			buildConfigurationList = 5287FE9F2AE9096300BC463D /* Build configuration list for PBXNativeTarget "SteamWebCPP" */;
 			buildPhases = (
-				52A1E8082AE8296400F4F353 /* Sources */,
-				52A1E8092AE8296400F4F353 /* Frameworks */,
-				52A1E80A2AE8296400F4F353 /* CopyFiles */,
+				5287FE942AE9096300BC463D /* Sources */,
+				5287FE952AE9096300BC463D /* Frameworks */,
+				5287FE962AE9096300BC463D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SteamWebCpp;
-			productName = SteamWebCpp;
-			productReference = 52A1E80C2AE8296400F4F353 /* SteamWebCpp */;
+			name = SteamWebCPP;
+			productName = SteamWebCPP;
+			productReference = 5287FE982AE9096300BC463D /* SteamWebCPP */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		52A1E8042AE8296400F4F353 /* Project object */ = {
+		5287FE902AE9096300BC463D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					52A1E80B2AE8296400F4F353 = {
+					5287FE972AE9096300BC463D = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 52A1E8072AE8296400F4F353 /* Build configuration list for PBXProject "SteamWebCpp" */;
+			buildConfigurationList = 5287FE932AE9096300BC463D /* Build configuration list for PBXProject "SteamWebCPP" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 52A1E8032AE8296400F4F353;
-			productRefGroup = 52A1E80D2AE8296400F4F353 /* Products */;
+			mainGroup = 5287FE8F2AE9096300BC463D;
+			productRefGroup = 5287FE992AE9096300BC463D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52A1E80B2AE8296400F4F353 /* SteamWebCpp */,
+				5287FE972AE9096300BC463D /* SteamWebCPP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52A1E8082AE8296400F4F353 /* Sources */ = {
+		5287FE942AE9096300BC463D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A1E8102AE8296400F4F353 /* main.cpp in Sources */,
+				5287FE9C2AE9096300BC463D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		52A1E8112AE8296400F4F353 /* Debug */ = {
+		5287FE9D2AE9096300BC463D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		52A1E8122AE8296400F4F353 /* Release */ = {
+		5287FE9E2AE9096300BC463D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		52A1E8142AE8296400F4F353 /* Debug */ = {
+		5287FEA02AE9096300BC463D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		52A1E8152AE8296400F4F353 /* Release */ = {
+		5287FEA12AE9096300BC463D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -264,25 +264,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52A1E8072AE8296400F4F353 /* Build configuration list for PBXProject "SteamWebCpp" */ = {
+		5287FE932AE9096300BC463D /* Build configuration list for PBXProject "SteamWebCPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52A1E8112AE8296400F4F353 /* Debug */,
-				52A1E8122AE8296400F4F353 /* Release */,
+				5287FE9D2AE9096300BC463D /* Debug */,
+				5287FE9E2AE9096300BC463D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A1E8132AE8296400F4F353 /* Build configuration list for PBXNativeTarget "SteamWebCpp" */ = {
+		5287FE9F2AE9096300BC463D /* Build configuration list for PBXNativeTarget "SteamWebCPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52A1E8142AE8296400F4F353 /* Debug */,
-				52A1E8152AE8296400F4F353 /* Release */,
+				5287FEA02AE9096300BC463D /* Debug */,
+				5287FEA12AE9096300BC463D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 52A1E8042AE8296400F4F353 /* Project object */;
+	rootObject = 5287FE902AE9096300BC463D /* Project object */;
 }
