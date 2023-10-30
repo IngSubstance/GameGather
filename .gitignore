@@ -37,6 +37,3 @@
 #Build
 build/
 
-#Ide
-.vscode/
-

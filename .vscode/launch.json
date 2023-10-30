@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+          "name": "C/C++ Launch",
+          "type": "lldb",
+          "request": "launch",
+          "program": "${workspaceFolder}/build/GameGather", // Specifica il percorso all'eseguibile del tuo progetto
+          "args": [],
+          "stopAtEntry": false,
+          "cwd": "${workspaceFolder}",
+          "environment": [],
+          "externalConsole": false,
+          "MIMode": "lldb",
+          "setupCommands": [
+            {
+              "description": "Enable pretty-printing for gdb",
+              "text": "-enable-pretty-printing",
+              "ignoreFailures": true
+            }
+          ],
+          "preLaunchTask": "build", // Specifica il nome del task CMake per la compilazione
+          "miDebuggerPath": "lldb" // Specifica il percorso dell'eseguibile LLDB
+        }
+      ]
+}

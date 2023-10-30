@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+              "--build",
+              "${workspaceFolder}/build", // Specifica il percorso della cartella di build
+              "--config",
+              "Debug" // Specifica la configurazione di build (puoi cambiarla in "Release" se necessario)
+            ],
+            "group": {
+              "kind": "build",
+              "isDefault": true
+            },
+            "presentation": {
+              "reveal": "always",
+              "panel": "new"
+            },
+            "problemMatcher": "$msCompile"
+          }
+    ],
+    "version": "2.0.0"
+}
