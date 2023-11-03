@@ -6,12 +6,9 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-#add library subdirectories
-add_subdirectory(libs/json)
-add_subdirectory(libs/curlpp)
-
 add_executable(GameGather src/main.cpp)
 
-#link libraries
-target_link_libraries(GameGather PRIVATE nlohmann_json::nlohmann_json)
-target_link_libraries(GameGather PRIVATE curlpp)
+#add library subdirectories
+add_subdirectory(lib/GameGatherLib)
+
+target_link_libraries(GameGather PRIVATE GameGatherLib)
