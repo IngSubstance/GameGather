@@ -1,0 +1,6 @@
+[submodule "lib/GameGatherLib/thirdparty/json"]
+	path = lib/GameGatherLib/thirdparty/json
+	url = git@github.com:nlohmann/json.git
+[submodule "lib/GameGatherLib/thirdparty/curlpp"]
+	path = lib/GameGatherLib/thirdparty/curlpp
+	url = git@github.com:jpbarrette/curlpp.git
